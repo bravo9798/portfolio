@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.507a3381.css",
+    "main.js": "/static/js/main.234d2d32.js",
+    "static/media/grammy.png": "/static/media/grammy.ecd8b9e24cc0782c0d10.png",
+    "static/media/fwd.png": "/static/media/fwd.e1ebee91c24c96f6a07d.png",
+    "static/media/ultroneous.png": "/static/media/ultroneous.8987f6de264055e34ee9.png",
+    "static/media/khulke.png": "/static/media/khulke.44e53730289d218b25f8.png",
+    "static/media/animalmerch.png": "/static/media/animalmerch.8215830d3c801c85987c.png",
+    "static/media/doordash.png": "/static/media/doordash.a5cb9362a46f489d6fa7.png",
+    "static/media/sleepwell.png": "/static/media/sleepwell.a37ac6be1372bbb2fe35.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.507a3381.css",
+    "static/js/main.234d2d32.js"
+  ]
+}
