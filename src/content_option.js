@@ -5,8 +5,11 @@ import sleepwell from "../src/assets/images/sleepwell.png";
 import grammy from "../src/assets/images/grammy.png";
 import doordash from "../src/assets/images/doordash.png";
 import khulke from "../src/assets/images/khulke.png";
+import myimg from "../src/assets/images/myimage.jpeg";
+import tirex from "../src/assets/images/tirex.PNG";
+import edme from "../src/assets/images/edme.PNG";
 
-const logotext = "Full Stack Developer";
+const logotext = "";
 const meta = {
   title: "Bhuvnesh Sharma",
   description:
@@ -14,20 +17,20 @@ const meta = {
 };
 
 const introdata = {
-  title: "I’m Bhuvnesh Sharma",
+  title: "Hey, I'm Bhuvnesh Sharma ",
   animated: {
-    first: "I thrive on unraveling complex problems through code.",
-    second: "Crafting innovative websites is my passion.",
-    third: "Building captivating digital experiences brings me joy.",
+    first: "Software Engineer & Solutions Architect",
+    second: "Passionate about building great products",
+    third: "From architecture to deployment",
   },
   description:
-    "With over 4 years of industry expertise, I am an experienced Full Stack Developer. Renowned for superior client engagement abilities, I effectively grasp and address client needs. Whether working autonomously or within team environments, I consistently achieve timely project delivery with a flawless 100% on-time track record.",
+    "I love building software that solves real-world problems. Over the past 5+ years, I've worked across industries including EV Charging, E-Commerce, FinTech, Healthcare, and IoT, helping teams design, develop, and launch scalable digital products. Whether it's system architecture, cloud infrastructure, frontend experiences, or backend services, I enjoy turning ambitious ideas into reliable and impactful solutions.",
   // your_img_url: "https://images.pexels.com/photos/5380661/pexels-photo-5380661.jpeg",
-  your_img_url: "https://images.pexels.com/photos/5380590/pexels-photo-5380590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  your_img_url: myimg,
 };
 
 const dataabout = {
-  title: "abit about my self",
+  title: "Abit about my self",
   aboutme:
     "Outside of work, I'm passionate about fitness, travel, and socializing. Whether it's hitting the gym, exploring new destinations, or simply enjoying good company, these activities enrich my life and keep me balanced",
 };
@@ -35,7 +38,7 @@ const worktimeline = [
   {
     jobtitle: "Software Engineer",
     where: "Nstack Softech",
-    date: "2021",
+    date: "2020",
   },
   {
     jobtitle: "Frontend Developer",
@@ -52,76 +55,104 @@ const worktimeline = [
     where: "Tirex Chargers",
     date: "2024",
   },
+  {
+    jobtitle: "Team Lead",
+    where: "Neosoft Pvt Ltd",
+    date: "2026",
+  },
 ];
 
 const skills = [
+  { name: "React.js", value: 95 },
+  { name: "Next.js", value: 90 },
+  { name: "JavaScript", value: 90 },
+  { name: "TypeScript", value: 85 },
+  { name: "HTML5", value: 95 },
+  { name: "CSS3", value: 90 },
+
+  { name: "Node.js", value: 85 },
+  { name: "Express.js", value: 85 },
+  { name: "Python", value: 70 },
+  { name: "Flask", value: 75 },
+
+  { name: "REST APIs", value: 90 },
+  { name: "GraphQL", value: 80 },
+  { name: "WebSockets", value: 85 },
+
+  { name: "Redux", value: 85 },
+  { name: "Chakra UI", value: 95 },
+  { name: "Tailwind CSS", value: 90 },
+  { name: "Bootstrap", value: 85 },
+
+  { name: "MongoDB", value: 75 },
+  { name: "MySQL", value: 80 },
+  { name: "SQL", value: 80 },
+
+  { name: "AWS", value: 80 },
+  { name: "Docker", value: 85 },
+  { name: "Linux", value: 80 },
+
+  { name: "System Architecture", value: 85 },
+  { name: "Microservices", value: 80 },
+  { name: "Cloud Architecture", value: 80 },
+
+  { name: "IoT Systems", value: 85 },
+  { name: "EV Charging Ecosystem", value: 95 },
+  { name: "OCPP 1.6 / 2.0.1", value: 95 },
+  { name: "CSMS Platforms", value: 90 },
+  { name: "POS Integration", value: 85 },
+
+  { name: "React Native", value: 70 },
+  { name: "Agile & Jira", value: 90 },
+  { name: "EV Charging Ecosystem", value: 95 },
+  { name: "OCPP 1.6 / 2.0.1", value: 95 },
+  { name: "CSMS Development", value: 90 },
+  { name: "AWS Cloud", value: 85 },
+  { name: "System Architecture", value: 90 },
+  { name: "Cloud Architecture", value: 85 },
+  { name: "IoT Platforms", value: 90 },
+  { name: "POS Integrations", value: 85 },
+  { name: "Payment Gateway Integration", value: 85 },
+  { name: "Microservices", value: 80 },
+  { name: "Docker", value: 85 },
+  { name: "Linux", value: 85 },
+  { name: "Technical Leadership", value: 90 },
+];
+const domains = [
   {
-    name: "Reactjs",
-    value: 90,
+    name: "EV Charging & E-Mobility",
+    description:
+      "EV Chargers, OCPP 1.6/2.0.1, CSMS Platforms, Smart Charging, RFID Authentication, Payment Integration, Fleet Management, Remote Monitoring, Diagnostics, Firmware Management and Energy Management Systems.",
   },
   {
-    name: "HTML",
-    value: 85,
+    name: "E-Commerce",
+    description:
+      "Product Catalogs, Shopping Cart Systems, Inventory Management, Order Processing, Payment Gateways, Customer Portals, Subscription Platforms and Marketplace Applications.",
   },
   {
-    name: "CSS",
-    value: 85,
+    name: "FinTech",
+    description:
+      "Payment Processing, POS Integrations, Digital Wallets, Transaction Management, Financial Dashboards, Secure APIs, Authentication Systems and Reporting Platforms.",
   },
   {
-    name: "Python",
-    value: 55,
+    name: "Healthcare & Pharma",
+    description:
+      "Healthcare Management Systems, Patient Workflows, Pharmaceutical Solutions, Data Visualization Dashboards, Secure Data Handling and Compliance-Oriented Applications.",
   },
   {
-    name: "Javascript",
-    value: 80,
+    name: "Music & Entertainment",
+    description:
+      "Music Streaming Platforms, Artist Portals, Media Management Systems, Subscription Services, Content Delivery and User Engagement Applications.",
   },
   {
-    name: "Typescript",
-    value: 70,
+    name: "IoT & Connected Devices",
+    description:
+      "Real-time Device Monitoring, Embedded Systems Integration, Telemetry Processing, Device Management Platforms, WebSocket Communication and Cloud Connectivity.",
   },
   {
-    name: "Nextjs",
-    value: 85,
-  },
-  {
-    name: "GraphQl",
-    value: 70,
-  },
-  {
-    name: "Nodejs",
-    value: 75,
-  },
-  {
-    name: "Redux",
-    value: 70,
-  },
-  {
-    name: "ChakraUI",
-    value: 90,
-  },
-  {
-    name: "TailwindCSS",
-    value: 90,
-  },
-  {
-    name: "Bootstrap",
-    value: 80,
-  },
-  {
-    name: "Flask",
-    value: 70,
-  },
-  {
-    name: "React Native",
-    value: 65,
-  },
-  {
-    name: "SQL",
-    value: 70,
-  },
-  {
-    name: "MongoDB",
-    value: 60,
+    name: "SaaS Platforms",
+    description:
+      "Multi-Tenant Applications, Subscription Management, Role-Based Access Control, Analytics Dashboards and Enterprise Software Solutions.",
   },
 ];
 
@@ -141,64 +172,84 @@ const services = [
     description:
       "In the realm of backend development, I excel in crafting robust solutions fueled by a profound understanding of database design, implementation, and optimization, with a particular emphasis on MongoDB and SQL. My expertise extends to proficiently designing and developing RESTful APIs using Node.js and Express.js, seamlessly integrating backend functionalities with contemporary frontend build pipelines and tools. Adept at debugging and resolving issues within existing codebases, I ensure the reliability and seamless operation of applications.A collaborative team player, I thrive in cross-functional environments, actively contributing to the definition, design, and successful delivery of new features. With a diverse experience encompassing the creation of websocket, SOAP, and REST APIs, complemented by a proven track record of effectively managing projects through short-term sprints and long-term deployments, I bring a comprehensive approach to backend development. Leveraging deployment tools such as Docker and AWS, alongside rigorous unit testing, I streamline deployment processes to ensure the dependable delivery of applications.",
   },
+  {
+    title: "EV Charging & IoT Solutions",
+    description:
+      "Specialized in designing and developing end-to-end EV Charging Management Systems (CSMS), Charger User Interfaces, and cloud-connected IoT platforms. Experienced in implementing OCPP 1.6 and OCPP 2.0.1 communication flows, charger monitoring, remote control operations, transaction management, firmware updates, diagnostics, and payment workflows. Skilled in integrating POS systems, RFID authentication, mobile applications, payment gateways, cloud services, and real-time dashboards. Proven experience in architecting scalable EV charging ecosystems involving embedded devices, cloud infrastructure, APIs, and modern web applications.",
+  },
 ];
 
 const dataportfolio = [
   {
     img: fwd,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Digital life insurance platform focused on customer onboarding, policy management, and seamless insurance experiences.", // FWD is a tech-enabled insurer :contentReference[oaicite:0]{index=0}
     link: "https://www.fwd.com/en/",
   },
   {
     img: ultroneous,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Corporate website and content platform showcasing software development, cloud, and technology consulting services.",
     link: "https://ultroneous.com/",
   },
   {
     img: animalmerch,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "E-commerce platform for branded merchandise featuring product catalogs, shopping cart, and order management.",
     link: "https://animalmerch.com/",
   },
   {
     img: sleepwell,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Enterprise e-commerce solution for mattresses and home comfort products with online purchasing workflows.",
     link: "https://mysleepwell.com/",
   },
   {
     img: grammy,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Global music and entertainment platform supporting artist showcases, award programs, and digital content experiences.",
     link: "https://www.grammy.com/",
   },
   {
     img: doordash,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Food ordering and delivery platform with POS integration, order tracking, and real-time operational workflows.",
     link: "https://www.doordash.com/",
   },
 
   {
-    img: khulke,
+    img: tirex,
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "https://www.khulke.com/",
+      "EV charging ecosystem including charger UI, CSMS platform, OCPP integration, payments, and remote monitoring.",
+    link: "https://www.tirexchargers.com/",
+  },
+
+  {
+    img: edme,
+    description:
+      "Digital motor insurance platform enabling policy management, claims workflows, and customer self-service.",
+    link: "https://www.edmeinsurance.com/",
   },
 ];
-
+// const contactConfig = {
+//   YOUR_EMAIL: "bhuvneshsharma9798@gmail.com",
+//   YOUR_FONE: "(+91)9316227008",
+//   description:
+//     "Reach out to me directly through this contact form to discuss collaborations, opportunities, or any inquiries you may have. I look forward to connecting with you!",
+//   // creat an emailjs.com account
+//   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+//   YOUR_SERVICE_ID: "service_i060ts7",
+//   YOUR_TEMPLATE_ID: "template_id",
+//   YOUR_USER_ID: "user_id",
+// };
 const contactConfig = {
   YOUR_EMAIL: "bhuvneshsharma9798@gmail.com",
   YOUR_FONE: "(+91)9316227008",
   description:
     "Reach out to me directly through this contact form to discuss collaborations, opportunities, or any inquiries you may have. I look forward to connecting with you!",
-  // creat an emailjs.com account
-  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: "service_i060ts7",
+  YOUR_TEMPLATE_ID: "template_4dvawui", // ← from EmailJS dashboard
+  YOUR_PUBLIC_KEY: "ripUi_zBqK_5T9dRi", // ← from EmailJS account page
 };
 
 const socialprofils = {

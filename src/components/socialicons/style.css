@@ -1,3 +1,7 @@
+/* ============================================
+   STICK FOLLOW ICON — COMPLETE FIX
+   ============================================ */
+
 .stick_follow_icon {
     top: 50%;
     left: 30px;
@@ -5,6 +9,7 @@
     height: 200px;
     position: fixed;
     margin-top: -100px;
+    z-index: 99999;          /* ← ADD THIS: stays above everything including bg image */
 }
 
 .stick_follow_icon ul {
@@ -16,7 +21,7 @@
 .stick_follow_icon svg {
     width: 1.3em;
     height: 1.3em;
-    fill: var(--text-color)
+    fill: var(--text-color);
 }
 
 .stick_follow_icon p {
@@ -30,7 +35,7 @@
     line-height: 1.2;
     white-space: nowrap;
     position: relative;
-    transform: rotate( -90deg);
+    transform: rotate(-90deg);
 }
 
 .stick_follow_icon ul li {
@@ -52,18 +57,25 @@
     background-color: var(--text-color);
 }
 
+/* ============================================
+   MOBILE FIX
+   ============================================ */
 @media only screen and (max-width: 991px) {
     .stick_follow_icon {
         width: unset;
         height: unset;
-        position: static;
+        position: relative;        /* ← was static, needs relative for z-index to work */
         margin-top: unset;
+        top: unset;
+        left: unset;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
         padding: 40px 0;
         align-items: center;
+        z-index: 99999;            /* ← keep above fixed bg image */
     }
+
     .stick_follow_icon p {
         top: unset;
         left: unset;
@@ -75,9 +87,11 @@
         font-size: 17px;
         margin-right: 65px;
     }
+
     .stick_follow_icon ul {
         margin-bottom: 20px;
     }
+
     .stick_follow_icon ul li {
         display: inline;
         margin-bottom: 29px;
