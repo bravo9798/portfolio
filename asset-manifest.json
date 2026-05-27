@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.507a3381.css",
-    "main.js": "/portfolio/static/js/main.b3a384a9.js",
+    "main.css": "/portfolio/static/css/main.756c75cd.css",
+    "main.js": "/portfolio/static/js/main.fa93c2bd.js",
+    "static/media/edme.PNG": "/portfolio/static/media/edme.acf2e77540ef969986c6.PNG",
+    "static/media/tirex.PNG": "/portfolio/static/media/tirex.6236675115bd90c3fb18.PNG",
     "static/media/grammy.png": "/portfolio/static/media/grammy.ecd8b9e24cc0782c0d10.png",
     "static/media/fwd.png": "/portfolio/static/media/fwd.e1ebee91c24c96f6a07d.png",
     "static/media/ultroneous.png": "/portfolio/static/media/ultroneous.8987f6de264055e34ee9.png",
@@ -9,10 +11,11 @@
     "static/media/animalmerch.png": "/portfolio/static/media/animalmerch.8215830d3c801c85987c.png",
     "static/media/doordash.png": "/portfolio/static/media/doordash.a5cb9362a46f489d6fa7.png",
     "static/media/sleepwell.png": "/portfolio/static/media/sleepwell.a37ac6be1372bbb2fe35.png",
+    "static/media/myimage.jpeg": "/portfolio/static/media/myimage.3bf1247b2504d6dcf6ee.jpeg",
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.507a3381.css",
-    "static/js/main.b3a384a9.js"
+    "static/css/main.756c75cd.css",
+    "static/js/main.fa93c2bd.js"
   ]
 }
